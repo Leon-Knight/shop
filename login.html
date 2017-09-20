@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>全套红色食品商城响应式登录页面模板 - 我爱模板网 www.5imoban.net</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="stylesheet" href="assets/css/amazeui.css" />
+		<link href="css/dlstyle.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src='js/jquery.validate.min.js'></script>
+		<style>
+		.tishixinxie>#info-error{
+				height: 30px;
+				width: 299px;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:inherit;
+				top:80px;
+				left:10px;
+
+			}
+		.tishixinxie>#code-error{
+				height: 30px;
+				width: 299px;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:inherit;
+				top:80px;
+				left:10px;
+
+			}
+			.user-email>span{
+				position: absolute;
+				top:0px;
+				right:0px;
+				font-size: 12px;
+			}
+			.tishixinxip>#password-error{
+				height: 30px;
+				width: 299px;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:initial;
+				top:165px;
+				left:10px;
+			}
+			.tishixinxir>#passwordRepeat-error{
+				height: 30px;
+				width: 100%;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:absolute;
+				top:250px;
+				left:10px;
+				
+			}
+			#success,#success1{
+				width: 300px;
+				height: 300px;
+				background-color: pink;
+				position:absolute;
+				top:0px;
+				left:0px;
+				display: none;
+			}
+			#success>div,#success1>div{
+				position: relative;
+				margin-top: 20px;
+
+			}
+			#success>img,#success1>img{
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				cursor:pointer;
+			}
+			#success>div>a,#success1>div>a{
+				display: block;
+
+			}
+			#success>div>p,#success1>div>p{
+				cursor:pointer;
+			}
+			.tishixinxie{
+				width: 299px;
+    			height: 40px;
+    			line-height: 40px;
+    			
+    			/*background-color: pink;*/
+			}
+			.tishixinxip{
+				width: 299px;
+    			height: 40px;
+    			line-height: 40px;
+    			/*background-color: pink;*/
+    			
+			}
+			.tishixinxir{
+				width: 299px;
+    			height: 40px;
+    			line-height: 40px;
+    			/*background-color: pink;*/
+
+			}
+			.tiship{
+				width: 299px;
+    			height: 40px;
+    			line-height: 40px;
+    			background-color: pink;
+			}
+			.tishipwd{
+				width: 299px;
+    			height: 40px;
+    			line-height: 40px;
+    			background-color: pink;
+			}
+			.tishir{
+				width: 299px;
+    			height: 40px;
+    			line-height: 40px;
+    			background-color: pink;
+			}
+
+			.tiship>#phone-error{
+				height: 30px;
+				width: 299px;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:absolute;
+				top:80px;
+				left:10px;
+			}
+			.tishipwd>#pwd-error{
+				height: 30px;
+				width: 299px;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:absolute;
+				top:215px;
+				left:10px;
+			}
+			.tishir>#passwordRepeat-error{
+				height: 30px;
+				width: 299px;
+				font-size: 12px;
+				color: hotpink;
+				display: block;
+				position:absolute;
+				top:295px;
+				left:10px;
+			}
+			#email>#protocol{
+				position: absolute;
+				top:260px;
+				left:0px;
+				max-width: 320px;
+    			margin: 20px auto;
+    			font-size: 14px;
+
+			}
+			#email>#protocol>label{
+				    margin: 0;
+    				padding: 0;
+    				border: 0;
+    				font-size: 100%;
+    				font: inherit;
+    				vertical-align: baseline;
+   				 	font-family: arial,"Lantinghei SC","Microsoft Yahei";
+   				 	display: inline-block;
+   				 	width: 299px;
+   				 	height: 30px;
+			}
+			#email>#protocol>label>#reader-me{
+				   
+				width: 14px;
+				height: 14px;
+
+			}
+
+
+			#tel>#a{
+				position: absolute;
+				top:315px;
+				left:0px;
+				max-width: 320px;
+    			margin: 20px auto;
+    			font-size: 14px;
+			}
+			#tel>#a>label{
+				margin: 0;
+    				padding: 0;
+    				border: 0;
+    				font-size: 100%;
+    				font: inherit;
+    				vertical-align: baseline;
+   				 	font-family: arial,"Lantinghei SC","Microsoft Yahei";
+   				 	display: inline-block;
+   				 	width: 299px;
+   				 	height: 30px;
+			}
+			#tel>#a>label>.telregirst{
+				width: 14px;
+				height: 14px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="login-boxtitle">
+			<a href="home.html"><img alt="logo" src="images/logobig.png" /></a>
+		</div>
+
+		<div class="login-banner">
+			<div class="login-main">
+				<div class="login-banner-bg"><span></span><img src="images/big.jpg" /></div>
+				<div class="login-box">
+
+							<h3 class="title">登录商城</h3>
+
+							<div class="clear"></div>
+						
+						<div class="login-form">
+						  <form id='login'>
+							   <div class="user-name">
+								    <label for="user"><i class="am-icon-user"></i></label>
+								    <input type="text" name="info" id="user" placeholder="邮箱/手机">
+								 </div>
+								 <div class="tishixinxie">
+											<label id="info-error" class="error" for="user"></label>
+                 						</div>
+								 <div class="user-pass">
+									<label for="password"><i class="am-icon-lock"></i></label>
+									<input type="password" name="pwd" id="password" placeholder="请输入密码">
+								 </div>
+								<div class="tishixinxip">
+											<label id="password-error" class="error" for="password"></label>
+                 						</div>
+								<div class="user-name">
+								    <label for="code"><i class="am-icon-user"></i></label>
+								    <input type="text" name="code" id="code" placeholder="验证码"><img src="php/code.class.php" id="image">
+								 </div>
+								 <div class="tishixinxie">
+											<label id="code-error" class="error" for="code"></label>
+                 						</div>
+				 <!--<div class="login-links">
+					<label for="remember-me"><input id="remember-me" type="checkbox">记住密码</label>
+					<a href="#" class="am-fr">忘记密码</a>
+					<a href="register.html" class="zcnext am-fr am-btn-default">注册</a>
+					<br />
+				</div>-->
+				<div class="am-cf">
+					<input type="submit" name="" value="登 录" class="am-btn am-btn-primary am-btn-sm">
+				</div>
+              </form>
+           </div>
+            
+            
+			<div class="partner">		
+					<h3>合作账号</h3>
+				<div class="am-btn-group">
+					<li><a href="#"><i class="am-icon-qq am-icon-sm"></i><span>QQ登录</span></a></li>
+					<li><a href="#"><i class="am-icon-weibo am-icon-sm"></i><span>微博登录</span> </a></li>
+					<li><a href="#"><i class="am-icon-weixin am-icon-sm"></i><span>微信登录</span> </a></li>
+				</div>
+			</div>	
+
+				</div>
+			</div>
+		</div>
+
+
+					<div class="footer ">
+						<div class="footer-hd ">
+							<p>
+								<a href="# ">恒望科技</a>
+								<b>|</b>
+								<a href="# ">商城首页</a>
+								<b>|</b>
+								<a href="# ">支付宝</a>
+								<b>|</b>
+								<a href="# ">物流</a>
+							</p>
+						</div>
+						<div class="footer-bd ">
+							<p>
+								<a href="# ">关于恒望</a>
+								<a href="# ">合作伙伴</a>
+								<a href="# ">联系我们</a>
+								<a href="# ">网站地图</a>
+								<em><a href="http://www.5imoban.net/" target="_blank" title="静态网页模板">我爱模板网</a></em>
+							</p>
+						</div>
+					</div>
+					<script>
+					$('#image').click(function(){
+						$(this).attr('src','php/code.class.php?'+Math.random());
+					});
+					</script>
+					<script src='js/login.js'></script>
+	</body>
+
+</html>
